@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 
-slim = tf.contrib.slim
+import tf_slim as slim
 
 class ConvRNNCell(object):
   """Abstract object representing an Convolutional RNN cell.
